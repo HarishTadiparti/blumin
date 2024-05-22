@@ -16,7 +16,7 @@ const About = () => {
     };
 
     return (
-        <div className="container mx-auto px-4 mb-8">
+        <div className="container mx-auto px-4 mt-4 mb-8">
             <div className='mb-10'>
                 <Heading align='center' weight='bold' size='9' className="text-3xl md:text-5xl">About Us</Heading>
             </div>

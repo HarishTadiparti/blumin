@@ -30,7 +30,7 @@ const ContactUs = () => {
       <section className="text-gray-600 body-font mt-20">
         <div className="container px-5 mx-auto">
           <h1 className="text-6xl font-medium title-font text-gray-900 mb-12 text-center">
-            CONTACT US
+            Contact Us
           </h1>
         </div>
       </section>
@@ -90,7 +90,7 @@ const ContactUs = () => {
             )}
           </div>
           <div className="p-4 bg-white flex flex-col md:ml-auto w-full md:px-8 md:py-8 mt-8 md:mt-0 rounded-2xl">
-            <p className="leading-relaxed mb-5 text-gray-600">
+            <p className="leading-relaxed mb-5 text-gray-600 text-justify">
               We are here to answer any questions you may have about our
               services, collaborations, or partnerships. Reach out to us via the
               contact form below or directly through our contact details. We
