@@ -38,7 +38,7 @@ const Navbar = () => {
             }`}
         >
           {Links.map((item, index) => (
-            <li key={index} className="md:ml-8 md:my-0 my-7 font-semibold">
+            <div key={index} className="md:ml-8 md:my-0 my-7 font-semibold">
               <a
                 href={item.link}
                 onClick={() => setOpen(false)}
@@ -46,7 +46,7 @@ const Navbar = () => {
               >
                 {item.name}
               </a>
-            </li>
+            </div>
           ))}
         </ul>
       </div>
